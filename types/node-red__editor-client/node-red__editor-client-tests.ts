@@ -1,6 +1,7 @@
 // tslint:disable:space-before-function-paren
 
 import editorClient = require('@node-red/editor-client');
+import { NodeMessage } from '@node-red/registry';
 
 function redTests(RED: editorClient.RED) {
     interface MyNodeProperties extends editorClient.NodeProperties {
@@ -226,8 +227,8 @@ function redTests(RED: editorClient.RED) {
             x: {},
             key: {
                 value: '',
-            }
-        }
+            },
+        },
     };
 
     RED.nodes.registerType('my-node', myNodeDef);
@@ -386,4 +387,34 @@ function widgetTypedInputTests() {
     $('#inputId').typedInput('value', val);
 
     $('#inputId').typedInput('width', 200);
+}
+
+function nodeRedPluginTests(RED: editorClient.RED) {
+    const myPluginDef: editorClient.PluginDef = {
+        onadd() {
+            RED.sidebar.addTab({
+                id: 'my-plugin',
+                label: 'my-plugin',
+                name: 'my-plugin',
+                action: 'core:show-my-tab',
+            });
+            RED.actions.add('my-plugin:show-my-tab', () => RED.sidebar.show('my-plugin'));
+        },
+    };
+    RED.plugins.registerPlugin('my-plugin', myPluginDef);
+}
+
+function nodeRedUtilsTests(RED: editorClient.RED) {
+    interface SomeNodeMsg extends NodeMessage {
+        key: string;
+    }
+    const msg: SomeNodeMsg = {
+        key: 'value',
+    };
+
+    // $ExpectType (string | number)[]
+    RED.utils.normalisePropertyExpression('a["b"].c');
+
+    // $ExpectType (string | number)[]
+    RED.utils.normalisePropertyExpression('a[msg.foo]', msg);
 }

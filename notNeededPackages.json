@@ -1281,6 +1281,10 @@
             "libraryName": "eslint-visitor-keys",
             "asOfVersion": "3.3.0"
         },
+        "esm-utils": {
+            "libraryName": "esm-utils",
+            "asOfVersion": "2.0.1"
+        },
         "ethereumjs-tx": {
             "libraryName": "ethereumjs-tx",
             "asOfVersion": "2.0.0"
@@ -1472,6 +1476,10 @@
         "fetch-jsonp": {
             "libraryName": "fetch-jsonp",
             "asOfVersion": "1.1.0"
+        },
+        "fhir-kit-client": {
+            "libraryName": "fhir-kit-client",
+            "asOfVersion": "1.6.7"
         },
         "figures": {
             "libraryName": "figures",
@@ -1976,6 +1984,10 @@
         "http-status-codes": {
             "libraryName": "http-status-codes",
             "asOfVersion": "1.2.0"
+        },
+        "human-object-diff": {
+            "libraryName": "human-object-diff",
+            "asOfVersion": "3.0.0"
         },
         "humanize-string": {
             "libraryName": "humanize-string",
@@ -2789,6 +2801,10 @@
             "libraryName": "lru-cache",
             "asOfVersion": "7.10.0"
         },
+        "lz-string": {
+            "libraryName": "lz-string",
+            "asOfVersion": "1.5.0"
+        },
         "make-dir": {
             "libraryName": "make-dir",
             "asOfVersion": "2.1.0"
@@ -3017,6 +3033,10 @@
             "libraryName": "metismenu",
             "asOfVersion": "2.7.1"
         },
+        "micro": {
+            "libraryName": "micro",
+            "asOfVersion": "10.0.0"
+        },
         "microgears": {
             "libraryName": "microgears",
             "asOfVersion": "4.0.5"
@@ -3032,6 +3052,10 @@
         "minipass": {
             "libraryName": "minipass",
             "asOfVersion": "3.3.5"
+        },
+        "mkdirp": {
+            "libraryName": "mkdirp",
+            "asOfVersion": "2.0.0"
         },
         "mnemonic-words": {
             "libraryName": "mnemonic-words",
@@ -3080,6 +3104,10 @@
         "moment-timezone": {
             "libraryName": "moment-timezone",
             "asOfVersion": "0.5.30"
+        },
+        "monday-sdk-js": {
+            "libraryName": "monday-sdk-js",
+            "asOfVersion": "0.2.1"
         },
         "mongodb": {
             "libraryName": "mongodb",
@@ -3277,6 +3305,10 @@
             "libraryName": "node-xlsx",
             "asOfVersion": "0.21.0"
         },
+        "nodecredstash": {
+            "libraryName": "nodecredstash",
+            "asOfVersion": "3.0.0"
+        },
         "nookies": {
             "libraryName": "nookies",
             "asOfVersion": "2.0.3"
@@ -3352,6 +3384,10 @@
         "okta__okta-vue": {
             "libraryName": "@okta/okta-vue",
             "asOfVersion": "3.1.0"
+        },
+        "ol": {
+            "libraryName": "ol",
+            "asOfVersion": "7.0.0"
         },
         "on-change": {
             "libraryName": "on-change",
@@ -3863,6 +3899,10 @@
             "libraryName": "postcss-nested",
             "asOfVersion": "4.2.1"
         },
+        "postcss-preset-env": {
+            "libraryName": "postcss-preset-env",
+            "asOfVersion": "8.0.0"
+        },
         "postmark": {
             "libraryName": "postmark",
             "asOfVersion": "2.0.0"
@@ -4259,6 +4299,10 @@
             "libraryName": "react-countup",
             "asOfVersion": "4.3.1"
         },
+        "react-datetime-picker": {
+            "libraryName": "react-datetime-picker",
+            "asOfVersion": "5.0.0"
+        },
         "react-daum-postcode": {
             "libraryName": "react-daum-postcode",
             "asOfVersion": "1.6.1"
@@ -4378,6 +4422,10 @@
         "react-jss": {
             "libraryName": "react-jss",
             "asOfVersion": "10.0.0"
+        },
+        "react-leaflet": {
+            "libraryName": "react-leaflet",
+            "asOfVersion": "3.0.0"
         },
         "react-loader-spinner": {
             "libraryName": "react-loader-spinner",
@@ -4555,6 +4603,10 @@
             "libraryName": "react-rnd",
             "asOfVersion": "8.0.0"
         },
+        "react-router-native": {
+            "libraryName": "react-router-native",
+            "asOfVersion": "6.4.0"
+        },
         "react-scrollbar-size": {
             "libraryName": "react-scrollbar-size",
             "asOfVersion": "3.0.0"
@@ -4606,6 +4658,10 @@
         "react-textarea-autosize": {
             "libraryName": "react-textarea-autosize",
             "asOfVersion": "8.0.0"
+        },
+        "react-time-picker": {
+            "libraryName": "react-time-picker",
+            "asOfVersion": "6.0.0"
         },
         "react-toast-notifications": {
             "libraryName": "react-toast-notifications",
@@ -4815,6 +4871,10 @@
             "libraryName": "rgb2hex",
             "asOfVersion": "0.2.1"
         },
+        "rimraf": {
+            "libraryName": "rimraf",
+            "asOfVersion": "4.0.5"
+        },
         "riot": {
             "libraryName": "riot",
             "asOfVersion": "4.1.0"
@@ -4910,6 +4970,10 @@
         "sanitize-filename": {
             "libraryName": "sanitize-filename",
             "asOfVersion": "1.6.3"
+        },
+        "sass": {
+            "libraryName": "sass",
+            "asOfVersion": "1.45.0"
         },
         "sass-webpack-plugin": {
             "libraryName": "sass-webpack-plugin",
@@ -5934,6 +5998,18 @@
         "wordpress__blob": {
             "libraryName": "@wordpress/blob",
             "asOfVersion": "2.8.0"
+        },
+        "wordpress__compose": {
+            "libraryName": "@wordpress/compose",
+            "asOfVersion": "6.1.0"
+        },
+        "wordpress__core-data": {
+            "libraryName": "@wordpress/core-data",
+            "asOfVersion": "5.0.0"
+        },
+        "wordpress__data": {
+            "libraryName": "@wordpress/data",
+            "asOfVersion": "7.0.0"
         },
         "wordpress__dependency-extraction-webpack-plugin": {
             "libraryName": "@wordpress/dependency-extraction-webpack-plugin",

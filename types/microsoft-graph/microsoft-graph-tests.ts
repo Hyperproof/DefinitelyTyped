@@ -213,3 +213,15 @@ const album: MicrosoftGraph.Album = {
 const bookingsAvailabilityStatus: MicrosoftGraph.BookingsAvailabilityStatus = "available";
 
 const appliedConditionalAccessPolicyResult: MicrosoftGraph.BookingsAvailabilityStatus = "available";
+
+const bookingStaffRole: MicrosoftGraph.BookingStaffRole = "unknownFutureValue";
+
+const bookingAppointmentStatus: MicrosoftGraph.BookingAppointment = {
+    id: "test",
+};
+
+const authenticationMethodsPolicyMigrationState: MicrosoftGraph.AuthenticationMethodsPolicyMigrationState = "unknownFutureValue";
+
+const conditionalAccessGuestOrExternalUserTypes: MicrosoftGraph.ConditionalAccessGuestOrExternalUserTypes = "unknownFutureValue";
+
+const appManagementConfiguration: MicrosoftGraph.AppManagementConfiguration = {};
